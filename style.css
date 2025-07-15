@@ -5,30 +5,167 @@
 }
 
 .product-card{
-    border: 1px solid black;
+    
 
 }
 
 .product-card img{
     width: 100%;
+    height:fit-content;
 }
 
 .sidenav{
-    border: 2px solid black;
+    
 
     display:flex;
     flex-direction: column;
+    
+
+    height: 300px;
+    width: 200px;
+
+    background-color:#eee;
+    list-style: none;
+
+    
 }
+
+.sidenav1{
+    background-color: #44b;
+    color: white;
+    margin: 2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav1:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+
+
+.sidenav2{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav2:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+
+.sidenav3{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav3:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+
+.sidenav4{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav4:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+.sidenav5{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav5:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+.sidenav6{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav6:hover{
+    backg6ound-color: #228;
+    cursor: pointer;
+}
+.sidenav7{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav7:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+.sidenav8{
+    
+
+    background-color: #44b;
+    color: white;
+    margin:2px;
+    height: 30px;
+    padding:5px;
+}
+
+.sidenav8:hover{
+    background-color: #228;
+    cursor: pointer;
+}
+
+
 
 *{
     margin: 0;
     box-sizing:border-box;
     font-family: sans-serif;
+    
+}
+
+body{
+    background-color: #eee;
 }
 
 main{
     display:flex;
     flex-direction:row;
+    background-color: #eee;
+    margin-left: 10vw;
+    margin-right:10vw;
+    
+
 }
 
 header{
@@ -36,7 +173,7 @@ header{
     flex-direction: column;
     
 
-    border: 2px solid blue;
+    
 }
 
 li button img{ /*shopping cart Icon*/
@@ -44,13 +181,14 @@ li button img{ /*shopping cart Icon*/
     width: 1rem;
 }
 
-li button{ /*top nav bar buttons*/
+.navbutt{ /*top nav bar buttons*/
     border: none;
     background-color:#44b;
     color: white;
 
     cursor:pointer;
 
+   
     
 }
 
@@ -68,7 +206,7 @@ footer{
     list-style: none;
     background-color: #44b;
 
-    border: 2px solid blue;
+    margin-top: 5px;
     color: white;
 
     
@@ -78,9 +216,15 @@ footer{
 h2 .footer1{
     display: flex;
     flex-direction: column;
+
+    
     
    
 }
+
+
+
+
 
 h2 li:hover{
     text-decoration: underline;
@@ -102,6 +246,31 @@ h2 .footer3{
    
 }
 
+.f31:hover{
+text-decoration: underline;
+    cursor:pointer;
+}
+
+.f32:hover{
+text-decoration: underline;
+    cursor:pointer;
+}
+
+.f33:hover{
+text-decoration: underline;
+    cursor:pointer;
+}
+.f34:hover{
+text-decoration: underline;
+    cursor:pointer;
+}
+.f35:hover{
+text-decoration: underline;
+    cursor:pointer;
+}
+
+
+
 .top-container{
 
     display:flex;
@@ -110,6 +279,9 @@ h2 .footer3{
 
     list-style: none;
     background-color: #44b;
+
+    margin-left: 10vw;
+    margin-right:10vw;
 }
 
 .bottom-container{
@@ -120,14 +292,20 @@ h2 .footer3{
 }
 
 .searchbar{
-    border: solid black 2px;
+    border-bottom: solid #44b 1px;
+    background-color:white;
+    color:rgb(118, 118, 157);
+    
     width: 55vw;
     height: 30px;
+   
     display:flex;
     flex-direction:column;
     justify-content:end;
+    
     margin-left: 25px;
     margin-right: 15px;
+    margin-top:5px;
 
 
 }
@@ -144,10 +322,13 @@ h2 .footer3{
 
 h1{
     color:#44b;
+    margin-top: 7px;
+    font-size: x-large;
 }
 
 section h2{  /*targets h2 title in footer section to underline text*/
-    text-decoration: underline;
+     /* text-decoration: underline;  */
+    border-bottom: 2px solid white;
 }
 
 .mag-icon{
@@ -216,7 +397,7 @@ h3{
     display:flex;
     flex-direction: row;
     justify-content:space-between;
-    align-items:end;
+    align-items:center;
 }
 
 .pricebar button{
@@ -234,4 +415,33 @@ h3{
 .pricebar button:hover{
     cursor: pointer;
     background-color: #44b;
+}
+
+
+
+@media (width <= 576px){
+
+body{
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+
+header{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:unset;
+    width:100vw;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+
+
 }
